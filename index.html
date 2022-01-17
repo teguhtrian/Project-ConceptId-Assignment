@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cryptomonitor</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <!-- bootstrap 3.0.2 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- Ionicons -->
+    <link href="css/ionicons.min.css" rel="stylesheet" type="text/css" />
+    <!-- bootstrap wysihtml5 - text editor -->
+    <link href="css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css" />
+    <!-- Theme style -->
+    <link href="css/AdminLTE.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="skin-black">
+    <!-- header logo: style can be found in header.less -->
+    <header class="header">
+        <a href="index.html" class="logo">
+            <!-- Add the class icon to your logo image or logo icon to add the margining -->
+            Cryptomonitor
+        </a>
+        <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top" role="navigation">
+            <!-- Sidebar toggle button-->
+            <a href="#" class="navbar-btn sidebar-toggle" data-toggle="offcanvas" role="button">
+                <span class="sr-only">Toggle navigation</span>
+            </a>
+            <div class="navbar-right">
+                <ul class="nav navbar-nav">
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="wrapper row-offcanvas row-offcanvas-left">
+        <!-- Left side column. contains the logo and sidebar -->
+        <aside class="left-side sidebar-offcanvas">
+            <!-- sidebar: style can be found in sidebar.less -->
+            <section class="sidebar">
+                <!-- /.search form -->
+                <!-- sidebar menu: : style can be found in sidebar.less -->
+                <ul class="sidebar-menu">
+                    <li class="active">
+                        <a href="index.html">
+                            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <!-- /.sidebar -->
+        </aside>
+
+        <!-- Right side column. Contains the navbar and content of the page -->
+        <aside class="right-side">
+            <!-- Content Header (Page header) -->
+            <section class="content-header">
+                <h1>
+                    Dashboard
+                    <small>Crypto Currency</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="#"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+                </ol>
+            </section>
+
+            <!-- Main content -->
+            <section class="content">
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="box">
+                            <div class="box-header">
+                                <h3 class="box-title">Cryptocurrency Table</h3>
+                                <div class="box-tools">
+                                    <div class="input-group">
+                                        <input type="text" name="table_search" id="myInput"
+                                            class="form-control input-sm pull-right" style="width: 150px;"
+                                            placeholder="Search" />
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-sm btn-default"><i class="fa fa-search"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- /.box-header -->
+                            <div class="box-body table-responsive no-padding">
+                                <table class="table table-hover" id="myTable">
+                                    <thead>
+                                        <tr>
+                                            <th style="text-align: center;">Nama</th>
+                                            <th style="text-align: center;">Ticker in 24H</th>
+                                            <th style="text-align: center;">Volume</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tbody">
+
+                                    </tbody>
+                                </table>
+                            </div><!-- /.box-body -->
+                        </div><!-- /.box -->
+                    </div>
+                </div>
+
+            </section><!-- /.content -->
+        </aside><!-- /.right-side -->
+    </div><!-- ./wrapper -->
+
+    <!-- add new calendar event modal -->
+
+
+    <!-- jQuery 2.0.2 -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <!-- jQuery UI 1.10.3 -->
+    <script src="js/jquery-ui-1.10.3.min.js" type="text/javascript"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/jquery.number.js" type="text/javascript"></script>
+    <!-- Bootstrap WYSIHTML5 -->
+    <script src="js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
+
+    <!-- AdminLTE App -->
+    <script src="js/AdminLTE/app.js" type="text/javascript"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
